@@ -15,6 +15,8 @@ Fine-tuning dataset preparation utility that converts question/answer CSV rows i
 Tests, Dockerfile, GitHub Actions workflow, and deployment instructions.
 Project structure
 domain_specific_genai_chatbot/
+
+
 ├── app.py
 ├── requirements.txt
 ├── README.md
@@ -40,6 +42,8 @@ domain_specific_genai_chatbot/
 │   ├── test_rag.py
 │   └── test_fine_tuning.py
 └── .github/workflows/tests.yml
+
+
 Requirements
 Python 3.12 recommended.
 Internet access the first time the semantic embedding model is downloaded.
