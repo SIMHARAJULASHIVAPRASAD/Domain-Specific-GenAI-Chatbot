@@ -1,0 +1,11 @@
+question,answer
+What is RAG?,RAG retrieves relevant external context and supplies it to a language model so the answer can be grounded in source material.
+How is RAG different from fine-tuning?,RAG supplies retrievable facts at inference time while fine-tuning updates model weights to improve task behavior or response patterns.
+What is a text embedding?,A text embedding is a numerical vector representation of text that can be compared with other vectors for semantic similarity.
+What does top-k mean in retrieval?,Top-k is the number of highest-ranked passages returned by the retrieval stage for use as context.
+Why should answers include citations?,Citations help readers trace important claims back to retrieved passages and verify the evidence.
+What is TF-IDF retrieval?,TF-IDF is a lexical ranking method that weights terms by their frequency in a document and rarity across documents.
+How should missing evidence be handled?,The assistant should say that the available sources do not contain enough evidence instead of guessing.
+What is chunk overlap?,Chunk overlap repeats a small portion of text between adjacent chunks to reduce the chance that useful context is split at a boundary.
+How can a RAG system be evaluated?,Evaluate retrieval with labeled relevant passages and assess generated answers for groundedness relevance completeness and citation correctness.
+What is prompt injection in a document?,Prompt injection is instruction-like text embedded in content that attempts to redirect a model away from its intended task.
