@@ -16,34 +16,6 @@ Tests, Dockerfile, GitHub Actions workflow, and deployment instructions.
 Project structure
 domain_specific_genai_chatbot/
 
-
-├── app.py
-├── requirements.txt
-├── README.md
-├── Dockerfile
-├── runtime.txt
-├── .gitignore
-├── .streamlit/
-│   ├── config.toml
-│   └── secrets.toml.example
-├── src/
-│   ├── ingestion.py
-│   ├── rag.py
-│   ├── llm.py
-│   └── fine_tuning.py
-├── data/
-│   ├── sample_knowledge_base.md
-│   └── fine_tuning_examples.csv
-├── scripts/
-│   ├── prepare_finetuning_data.py
-│   └── start_openai_finetuning.py
-├── tests/
-│   ├── test_ingestion.py
-│   ├── test_rag.py
-│   └── test_fine_tuning.py
-└── .github/workflows/tests.yml
-
-
 Requirements
 Python 3.12 recommended.
 Internet access the first time the semantic embedding model is downloaded.
